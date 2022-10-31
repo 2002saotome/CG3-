@@ -370,7 +370,7 @@ void Object3d::LoadTexture()
 			(UINT)i,
 			nullptr,              // 全領域へコピー
 			img->pixels,          // 元データアドレス
-			(UINT)img->rowPitch,  // 1ラインサイズ
+			(UINT)img->rowPitch,  // 1ラインサイス
 			(UINT)img->slicePitch // 1枚サイズ
 		);
 		assert(SUCCEEDED(result));
