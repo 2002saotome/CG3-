@@ -20,6 +20,11 @@ private: // エイリアス
 	using XMFLOAT4 = DirectX::XMFLOAT4;
 	using XMMATRIX = DirectX::XMMATRIX;
 
+	//ビルボード行列
+	static XMMATRIX matBillboard;
+	//Y軸回りビルボード行列
+	static XMMATRIX matBillboardY;
+
 
 
 
